@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="64" height="64" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <!-- Favicon 版本 - 只有图标 -->
   
   <defs>
     <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#5B46E5;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <!-- 外圈装饰环 -->
-  <circle cx="35" cy="35" r="32" fill="none" stroke="url(#faviconGradient)" stroke-width="3" opacity="0.3"/>
-  
-  <!-- 主图标 - 六边形内的 A -->
-  <path d="M 35 8 L 58 20.5 L 58 45.5 L 35 58 L 12 45.5 L 12 20.5 Z" 
-        fill="url(#faviconGradient)" 
-        opacity="0.95"/>
+  <!-- 圆形背景 -->
+  <circle cx="32" cy="32" r="30" fill="url(#faviconGradient)"/>
   
   <!-- A 字母 -->
-  <path d="M 25 47 L 35 23 L 45 47 M 29.5 39 L 40.5 39" 
+  <path d="M 20 44 L 32 20 L 44 44 M 25 35 L 39 35" 
         stroke="#FFFFFF" 
-        stroke-width="3.5" 
+        stroke-width="4" 
         stroke-linecap="round" 
         stroke-linejoin="round" 
         fill="none"/>
