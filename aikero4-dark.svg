@@ -1,0 +1,24 @@
+<svg width="3000" height="900" viewBox="0 0 3000 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconPurpleDarkX4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C89CFF"/>
+      <stop offset="100%" stop-color="#9A4DFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(0,130)">
+    <rect x="0" y="0" width="480" height="640" rx="96" fill="url(#iconPurpleDarkX4)" />
+    <rect x="96" y="64" width="480" height="640" rx="96" fill="url(#iconPurpleDarkX4)" opacity="0.85"/>
+    <path d="M336 320a80 80 0 1 0 -160 0c0 32 16 56 40 72v104h80v-104c24-16 40-40 40-72z" fill="#FFF"/>
+  </g>
+
+  <!-- Letters: font-size = 640px (same height as icon) -->
+  <text x="650" y="670"
+        font-family="Inter, Helvetica, Arial"
+        font-size="640"
+        font-weight="700"
+        fill="#FFF">
+    aikero
+  </text>
+</svg>
