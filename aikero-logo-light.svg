@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景透明 -->
+  
+  <!-- 图标部分 - 现代几何 A 字母 -->
+  <g transform="translate(15, 15)">
+    <!-- 渐变定义 -->
+    <defs>
+      <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#5B46E5;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- 外圈装饰环 -->
+    <circle cx="35" cy="35" r="32" fill="none" stroke="url(#iconGradient)" stroke-width="3" opacity="0.3"/>
+    
+    <!-- 主图标 - 六边形内的 A -->
+    <path d="M 35 8 L 58 20.5 L 58 45.5 L 35 58 L 12 45.5 L 12 20.5 Z" 
+          fill="url(#iconGradient)" 
+          opacity="0.95"/>
+    
+    <!-- A 字母 -->
+    <path d="M 25 47 L 35 23 L 45 47 M 29.5 39 L 40.5 39" 
+          stroke="#FFFFFF" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+  </g>
+  
+  <!-- 文字部分 - aikero -->
+  <text x="95" y="58" 
+        font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" 
+        font-size="42" 
+        font-weight="700" 
+        fill="#1F2937"
+        letter-spacing="-1">
+    aikero
+  </text>
+  
+  <!-- 副标题 -->
+  <text x="97" y="75" 
+        font-family="'Inter', 'Segoe UI', Arial, sans-serif" 
+        font-size="11" 
+        font-weight="500"
+        fill="#6B7280"
+        letter-spacing="1">
+    IDENTITY PLATFORM
+  </text>
+</svg>
